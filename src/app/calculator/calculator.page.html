@@ -1,0 +1,126 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>Bottleneck Calculator</ion-title>
+    </ion-toolbar>
+</ion-header>
+<ion-content>
+    <ion-item-group>
+        <ion-item-divider>
+            <ion-label>
+                Processor
+            </ion-label>
+        </ion-item-divider>
+
+        <ion-item-sliding>
+            <ion-item>
+                <ion-label>
+                    Ryzen 3 4100
+                </ion-label>
+            </ion-item>
+            <ion-item-options>
+                <ion-item-option>
+                    Favorite
+                </ion-item-option>
+            </ion-item-options>
+        </ion-item-sliding>
+
+        <ion-item-sliding>
+            <ion-item>
+                <ion-label>
+                    Intel I3-10TH Gen
+                </ion-label>
+            </ion-item>
+            <ion-item-options>
+                <ion-item-option>
+                    Favorite
+                </ion-item-option>
+            </ion-item-options>
+        </ion-item-sliding>
+
+        <ion-item-sliding>
+            <ion-item lines="none">
+                <ion-label>
+                    AMD A10-9700
+                </ion-label>
+            </ion-item>
+            <ion-item-options>
+                <ion-item-option>
+                    Favorite
+                </ion-item-option>
+            </ion-item-options>
+        </ion-item-sliding>
+    </ion-item-group>
+
+    <ion-item-group>
+        <ion-item-divider>
+            <ion-label>
+                Graphics Card
+            </ion-label>
+        </ion-item-divider>
+
+        <ion-item-sliding>
+            <ion-item>
+                <ion-label>
+                    GTX 1050 TI
+                </ion-label>
+            </ion-item>
+            <ion-item-options>
+                <ion-item-option>
+                    Favorite
+                </ion-item-option>
+            </ion-item-options>
+        </ion-item-sliding>
+
+        <ion-item-sliding>
+            <ion-item>
+                <ion-label>
+                    RX 580
+                </ion-label>
+            </ion-item>
+            <ion-item-options>
+                <ion-item-option>
+                    Favorite
+                </ion-item-option>
+            </ion-item-options>
+        </ion-item-sliding>
+
+        <ion-item-sliding>
+            <ion-item lines="none">
+                <ion-label>
+                    RTX 2060
+                </ion-label>
+            </ion-item>
+            <ion-item-options>
+                <ion-item-option>
+                    Favorite
+                </ion-item-option>
+            </ion-item-options>
+        </ion-item-sliding>
+    </ion-item-group>
+    <div>
+        <h1>Result Calculation</h1>
+    </div>
+</ion-content>
+<ion-tabs>
+    <ion-tab-bar slot="bottom">
+        <ion-tab-button tab="Home" routerLink="/home">
+            <ion-icon name="home-outline"></ion-icon>
+            <ion-label>Home</ion-label>
+        </ion-tab-button>
+
+        <ion-tab-button tab="Build" routerLink="/build-pc">
+            <ion-icon name="build-outline"></ion-icon>
+            <ion-label>Build</ion-label>
+        </ion-tab-button>
+
+        <ion-tab-button tab="Calculator" routerLink="/calculator">
+            <ion-icon name="calculator-outline"></ion-icon>
+            <ion-label>Bottleneck Calculator</ion-label>
+        </ion-tab-button>
+
+        <ion-tab-button tab="about" routerLink="/about">
+            <ion-icon name="information-circle"></ion-icon>
+            <ion-label>About</ion-label>
+        </ion-tab-button>
+    </ion-tab-bar>
+</ion-tabs>
